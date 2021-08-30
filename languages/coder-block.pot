@@ -1,0 +1,232 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: coder-block-translation\n"
+"Report-Msgid-Bugs-To: https://github.com/sh1zen/coder-block/issues\n"
+"POT-Creation-Date: 2021-08-30 22:07+0200\n"
+"PO-Revision-Date: 2020-05-13 02:34+0200\n"
+"Last-Translator: sh1zen\n"
+"Language-Team: sh1zen\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.0\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywfsrdsList: __;_e;_ex;_x;_n;_nx;_n_noop;_nx_noop;esc_html__;"
+"esc_attr__;esc_attr_e;esc_html_e;esc_attr_x;esc_html_x\n"
+"X-Poedit-KeywordsList: __;_e;_ex;_x;_n;_nx;_n_noop;_nx_noop;esc_html__;"
+"esc_attr__;esc_attr_e;esc_html_e;esc_attr_x;esc_html_x\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: languages\n"
+"X-Poedit-SearchPathExcluded-1: build\n"
+
+#: src/extra/inspector.js:27
+msgid "All lines"
+msgstr ""
+
+#: src/extra/inspector.js:36
+msgid "Languages"
+msgstr ""
+
+#: src/extra/inspector.js:41
+msgid "PHP"
+msgstr ""
+
+#: src/extra/inspector.js:45
+msgid "CSS"
+msgstr ""
+
+#: src/extra/inspector.js:49
+msgid "SASS"
+msgstr ""
+
+#: src/extra/inspector.js:53
+msgid "SCSS"
+msgstr ""
+
+#: src/extra/inspector.js:57
+msgid "LESS"
+msgstr ""
+
+#: src/extra/inspector.js:61
+msgid "HTML"
+msgstr ""
+
+#: src/extra/inspector.js:65
+msgid "JAVA"
+msgstr ""
+
+#: src/extra/inspector.js:69
+msgid "JAVASCRIPT"
+msgstr ""
+
+#: src/extra/inspector.js:73
+msgid "TYPESCRIPT"
+msgstr ""
+
+#: src/extra/inspector.js:77
+msgid "TSX"
+msgstr ""
+
+#: src/extra/inspector.js:81
+msgid "JSX"
+msgstr ""
+
+#: src/extra/inspector.js:85
+msgid "XML"
+msgstr ""
+
+#: src/extra/inspector.js:89
+msgid "JSON"
+msgstr ""
+
+#: src/extra/inspector.js:93
+msgid "TEXT"
+msgstr ""
+
+#: src/extra/inspector.js:97
+msgid "PLAIN TEXT"
+msgstr ""
+
+#: src/extra/inspector.js:101
+msgid "MARKDOWN"
+msgstr ""
+
+#: src/extra/inspector.js:105
+msgid "MYSQL"
+msgstr ""
+
+#: src/extra/inspector.js:109
+msgid "SQL"
+msgstr ""
+
+#: src/extra/inspector.js:113
+msgid "SQLSERVER"
+msgstr ""
+
+#: src/extra/inspector.js:117
+msgid "SVG"
+msgstr ""
+
+#: src/extra/inspector.js:121
+msgid "POWERSHELL"
+msgstr ""
+
+#: src/extra/inspector.js:125
+msgid "KOTLIN"
+msgstr ""
+
+#: src/extra/inspector.js:129
+msgid "SWIFT"
+msgstr ""
+
+#: src/extra/inspector.js:133
+msgid "RUBY"
+msgstr ""
+
+#: src/extra/inspector.js:137
+msgid "PYTHON"
+msgstr ""
+
+#: src/extra/inspector.js:141
+msgid "LUA"
+msgstr ""
+
+#: src/extra/inspector.js:145
+msgid "C++"
+msgstr ""
+
+#: src/extra/inspector.js:149
+msgid "C#"
+msgstr ""
+
+#: src/extra/inspector.js:153
+msgid "Bash/Shell"
+msgstr ""
+
+#: src/extra/inspector.js:159
+msgid "Themes"
+msgstr ""
+
+#: src/extra/inspector.js:162
+msgid "Monokai"
+msgstr ""
+
+#: src/extra/inspector.js:163
+msgid "Github"
+msgstr ""
+
+#: src/extra/inspector.js:164
+msgid "Cobalt"
+msgstr ""
+
+#: src/extra/inspector.js:165
+msgid "Dawn"
+msgstr ""
+
+#: src/extra/inspector.js:166
+msgid "Dracula"
+msgstr ""
+
+#: src/extra/inspector.js:167
+msgid "Eclipse"
+msgstr ""
+
+#: src/extra/inspector.js:168
+msgid "Tomorrow"
+msgstr ""
+
+#: src/extra/inspector.js:169
+msgid "Tomorrow Night"
+msgstr ""
+
+#: src/extra/inspector.js:170
+msgid "Tomorrow Night Blue"
+msgstr ""
+
+#: src/extra/inspector.js:171
+msgid "Tomorrow Night Bright"
+msgstr ""
+
+#: src/extra/inspector.js:172
+msgid "Tomorrow Night Eighties"
+msgstr ""
+
+#: src/extra/inspector.js:173
+msgid "Twilight"
+msgstr ""
+
+#: src/extra/inspector.js:180
+msgid "Font size px"
+msgstr ""
+
+#: src/extra/inspector.js:189
+msgid "Lines to show in frontend without scroll"
+msgstr ""
+
+#: src/extra/inspector.js:200
+msgid "Show lines number"
+msgstr ""
+
+#: src/extra/inspector.js:207
+msgid "Auto completion?"
+msgstr ""
+
+#: src/extra/inspector.js:219
+msgid "Evaluate the code?"
+msgstr ""
+
+#: src/extra/inspector.js:227
+msgid "Display code source?"
+msgstr ""
+
+#: src/extra/inspector.js:235
+msgid "Use ACE editor?"
+msgstr ""
+
+#: src/extra/inspector.js:243
+msgid "Do shortcodes?"
+msgstr ""

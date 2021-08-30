@@ -1,0 +1,21 @@
+# Numerous always-ignore extensions
+*.diff
+*.err
+*.orig
+*.log
+*.rej
+*.swo
+*.swp
+*.vi
+*~
+*.sass-cache
+*.lock
+
+# OS or Editor folders
+.DS_Store
+Thumbs.db
+
+# Folders to ignore
+.vscode
+.idea
+node_modules
