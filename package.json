@@ -1,0 +1,28 @@
+{
+  "name": "coder-php",
+  "version": "1.0.0",
+  "description": "Easily embed PHP code into your posts.",
+  "author": "sh1z3n",
+  "license": "GPL-2.0-or-later",
+  "main": "build/index.js",
+  "scripts": {
+    "build": "wp-scripts build",
+    "format": "wp-scripts format",
+    "lint:css": "wp-scripts lint-style",
+    "lint:js": "wp-scripts lint-js",
+    "start": "wp-scripts start",
+    "packages-update": "wp-scripts packages-update"
+  },
+  "dependencies": {
+    "@wordpress/block-editor": "^7.0.1",
+    "@wordpress/blocks": "^11.0.1",
+    "@wordpress/i18n": "^4.2.1",
+    "ace-builds": "^1.4.12",
+    "classnames": "^2.3.1",
+    "file-loader": "^6.2.0",
+    "react-ace": "^9.4.3"
+  },
+  "devDependencies": {
+    "@wordpress/scripts": "^18.0.0"
+  }
+}

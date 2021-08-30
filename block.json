@@ -1,0 +1,77 @@
+{
+  "apiVersion": 2,
+  "name": "cblocks/coder-block",
+  "title": "Code Editor",
+  "icon": "editor-code",
+  "category": "scripts-blocks",
+  "description": "A simple way to share and evaluate code with Gutenberg.",
+  "textdomain": "coder-block",
+  "version": "1.0.0",
+  "keywords": [
+    "php",
+    "code",
+    "editor",
+    "javascript",
+    "css",
+    "js"
+  ],
+  "attributes": {
+    "mode": {
+      "type": "string",
+      "default": "php"
+    },
+    "theme": {
+      "type": "string",
+      "default": "twilight"
+    },
+    "fontsize": {
+      "type": "string",
+      "default": "14"
+    },
+    "lines": {
+      "type": "string",
+      "default": "Infinity"
+    },
+    "code": {
+      "type": "string",
+      "source": "text",
+      "selector": "pre",
+      "default": "<?php echo 'hello world!'; ?>"
+    },
+    "showLinesNumber": {
+      "type": "boolean",
+      "default": true
+    },
+    "autocompletion": {
+      "type": "boolean",
+      "default": true
+    },
+    "evaluate": {
+      "type": "boolean",
+      "default": false
+    },
+    "showSource": {
+      "type": "boolean",
+      "default": true
+    },
+    "doShortCodes": {
+      "type": "boolean",
+      "default": false
+    },
+    "useACE": {
+      "type": "boolean",
+      "default": true
+    }
+  },
+  "supports": {
+    "html": false,
+    "anchor": true
+  },
+  "example": {
+    "attributes": {
+      "code": "<?php echo 'Hello World!'; ?>"
+    }
+  },
+  "editorStyle": "coder-block-editor-style",
+  "editorScript": "coder-block-editor-script"
+}
