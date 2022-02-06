@@ -2,10 +2,10 @@
 Contributors: sh1zen 
 Tags: Block, code, javascript, php, css 
 Donate link: https://www.paypal.com/donate?business=dev.sh1zen%40outlook.it&item_name=Thank+you+in+advanced+for+the+kind+donations.+You+will+sustain+me+building+better+software.&currency_code=EUR
-Requires at least: 5.6 
-Tested up to: 5.8
-Requires PHP: 5.3 
-Stable tag: 1.0.0
+Requires at least: 5.6
+Tested up to: 5.9
+Requires PHP: 5.3
+Stable tag: 1.0.1
 License: GNU v3.0 License
 License URI: https://github.com/sh1zen/coder-block/blob/master/LICENSE
 
@@ -81,15 +81,19 @@ work! Otherwise, go to the new added module "Setting" and try a reset.
 == Screenshots ==
 
 1. Block Editor
-2. Code Interpreted
-3. Source Code View
 
 == Upgrade Notice ==
 
-= 1.0.0 =
-Initial Release
+= 1.0.1 =
+
+Extended support to PHP 8.1 and WordPress 5.9
 
 == Changelog ==
+
+= 1.0.1 =
+
+* Extended support to PHP 8.1 and WordPress 5.9
+* Updated dependencies
 
 = 1.0.0 =
 
