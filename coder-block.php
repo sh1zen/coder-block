@@ -3,17 +3,12 @@
  * Plugin Name:       Coder Block
  * Plugin URI:        https://github.com/sh1zen/coder-block
  * Description:       A simple way to share and valuate code with Gutenberg.
- * Version:           1.0.0
+ * Version:           1.0.1
  * Author:            sh1zen
  * Author URI:        https://sh1zen.github.io/
  * Text Domain:       coder-block
  * Domain Path:       /languages
  */
-
-// If this file is called directly, abort.
-if (!defined('WPINC')) {
-    die;
-}
 
 class CoderBlock
 {
@@ -87,15 +82,33 @@ class CoderBlock
 
     private function interpret($code, $type)
     {
+        global $flex, $posts, $post, $wp_did_header, $wp_query, $wp_rewrite, $wpdb, $wp_version, $wp, $id, $comment, $user_ID, $current_user;
+
         if (empty($code))
             return '';
 
         if ($type === 'php') {
 
             if (preg_match("#<\?php(.*)\?>#s", $code, $matches)) {
-                ob_start();
 
-                extract(array('flex'));
+                if (is_array($wp_query->query_vars)) {
+                    /*
+                     * This use of extract() cannot be removed. There are many possible ways that
+                     * templates could depend on variables that it creates existing, and no way to
+                     * detect and deprecate it.
+                     *
+                     * Passing the EXTR_SKIP flag is the safest option, ensuring globals and
+                     * function variables cannot be overwritten.
+                     */
+                    // phpcs:ignore WordPress.PHP.DontExtract.extract_extract
+                    extract($wp_query->query_vars, EXTR_SKIP);
+                }
+
+                if (isset($s)) {
+                    $s = esc_attr($s);
+                }
+
+                ob_start();
 
                 try {
 
@@ -106,7 +119,7 @@ class CoderBlock
                         echo $e->getMessage();
                     }
                     else {
-                        echo "An error occurred";
+                        echo __("An error occurred!", 'coder-block');
                     }
                 }
 

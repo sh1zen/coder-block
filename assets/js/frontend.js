@@ -20,7 +20,7 @@
         document.body.removeChild(dummy);
     }
 
-    $(window).load(function () {
+    $(window).on('load', function () {
 
         let CoderBlock = $('pre.im-coder-block');
 
