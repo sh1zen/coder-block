@@ -1,15 +1,15 @@
 === Coder Block ===
 Contributors: sh1zen 
-Tags: Block, code, javascript, php, css 
+Tags: code, functions, php, snippets, block
 Donate link: https://www.paypal.com/donate?business=dev.sh1zen%40outlook.it&item_name=Thank+you+in+advanced+for+the+kind+donations.+You+will+sustain+me+building+better+software.&currency_code=EUR
 Requires at least: 5.6
-Tested up to: 5.9
+Tested up to: 6.0
 Requires PHP: 5.3
-Stable tag: 1.0.1
+Stable tag: 1.0.2
 License: GNU v3.0 License
 License URI: https://github.com/sh1zen/coder-block/blob/master/LICENSE
 
-A simple way to share and evaluate code with Gutenberg.
+The Coder Block plugin allows embedding php code inside of posts and pages within the new Block Editor.
 
 == Description ==
 
@@ -39,7 +39,7 @@ WordPress plugin.
 
 **1. VIA WORDPRESS DASHBOARD**
   
-* Click on ‘Add New’ in the plugins dashboard
+* Click on ‘Add New’ in the plugins' dashboard
 * Search for 'WP Optimizer'
 * Click ‘Install Now’ button
 * Activate the plugin from the same page or from the Plugins Dashboard
@@ -83,6 +83,10 @@ work! Otherwise, go to the new added module "Setting" and try a reset.
 1. Block Editor
 
 == Upgrade Notice ==
+
+= 1.0.2 =
+
+Extended support to WordPress 6.0
 
 = 1.0.1 =
 
