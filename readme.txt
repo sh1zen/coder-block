@@ -1,11 +1,11 @@
 === Coder Block ===
 Contributors: sh1zen 
 Tags: code, functions, php, snippets, block
-Donate link: https://www.paypal.com/donate?business=dev.sh1zen%40outlook.it&item_name=Thank+you+in+advanced+for+the+kind+donations.+You+will+sustain+me+building+better+software.&currency_code=EUR
+Donate link: https://www.paypal.com/donate?business=dev.sh1zen%40outlook.it&item_name=Thank+you+in+advanced+for+the+kind+donations.+You+will+sustain+me+developing+Coder+Block.&currency_code=EUR
 Requires at least: 5.6
 Tested up to: 6.0
 Requires PHP: 5.3
-Stable tag: 1.0.2
+Stable tag: 1.0.3
 License: GNU v3.0 License
 License URI: https://github.com/sh1zen/coder-block/blob/master/LICENSE
 
@@ -30,7 +30,7 @@ Up to now are supported PHP, Javascript and CSS only.
 **DONATIONS**
 
 This plugin is free and always will be, but if you are feeling generous and want to show your support, you can buy me a
-beer or coffee [here](https://www.paypal.com/donate/?business=dev.sh1zen%40outlook.it&item_name=Thank+you+in+advanced+for+the+kind+donations.+You+will+sustain+me+building+better+software.&currency_code=EUR), I will really appreciate it.
+beer or coffee [here](https://www.paypal.com/donate/?business=dev.sh1zen%40outlook.it&item_name=Thank+you+in+advanced+for+the+kind+donations.+You+will+sustain+me+developing+Coder+Block.&currency_code=EUR), I will really appreciate it.
 
 == Installation ==
 
@@ -78,21 +78,15 @@ WordPress plugin.
 Deactivate the plugin and reactivate it, if this doesn't work try to uninstall and reinstall it. That should
 work! Otherwise, go to the new added module "Setting" and try a reset.
 
-== Screenshots ==
+== Changelog ==
 
-1. Block Editor
+= 1.0.3 =
 
-== Upgrade Notice ==
+* updated dependencies
 
 = 1.0.2 =
 
-Extended support to WordPress 6.0
-
-= 1.0.1 =
-
-Extended support to PHP 8.1 and WordPress 5.9
-
-== Changelog ==
+* Extended support to WordPress 6.0
 
 = 1.0.1 =
 
