@@ -3,7 +3,7 @@
  * Plugin Name:       Coder Block
  * Plugin URI:        https://github.com/sh1zen/coder-block
  * Description:       A simple way to share and valuate code within the new Block Editor.
- * Version:           1.0.4
+ * Version:           1.0.6
  * Author:            sh1zen
  * Author URI:        https://sh1zen.github.io/
  * Text Domain:       coder-block

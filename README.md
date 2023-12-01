@@ -21,4 +21,7 @@ place through the appropriate channel on [our community forum on wp.org](https:/
 
 Support requests in issues on this repository will be closed on sight.
 
-
+[comment]: <> (npm update)
+[comment]: <> (npm run packages-update)
+[comment]: <> (npm run build)
+[comment]: <> (npm cache clean --force)
