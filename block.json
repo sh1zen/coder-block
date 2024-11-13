@@ -6,7 +6,7 @@
   "category": "scripts-blocks",
   "description": "A simple way to share and evaluate code with Gutenberg.",
   "textdomain": "coder-block",
-  "version": "1.0.6",
+  "version": "1.0.9",
   "keywords": [
     "php",
     "code",

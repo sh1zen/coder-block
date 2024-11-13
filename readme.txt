@@ -3,9 +3,9 @@ Contributors: sh1zen
 Tags: code, functions, php, snippets, block
 Donate link: https://www.paypal.com/donate?business=dev.sh1zen%40outlook.it&item_name=Thank+you+in+advanced+for+the+kind+donations.+You+will+sustain+me+developing+Coder+Block.&currency_code=EUR
 Requires at least: 5.6
-Tested up to: 6.5
+Tested up to: 6.7
 Requires PHP: 7.0
-Stable tag: 1.0.8
+Stable tag: 1.0.9
 License: GNU v3.0 License
 License URI: https://github.com/sh1zen/coder-block/blob/master/LICENSE
 
@@ -80,9 +80,9 @@ work! Otherwise, go to the new added module "Setting" and try a reset.
 
 == Changelog ==
 
-= 1.0.8 =
+= 1.0.9 =
 
-* Extended support to WordPress 6.5
+* Extended support to WordPress 6.7
 * updated dependencies
 
 = 1.0.6 =

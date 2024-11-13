@@ -14,13 +14,13 @@
     "packages-update": "wp-scripts packages-update"
   },
   "dependencies": {
-    "@wordpress/block-editor": "^12.22.0",
-    "@wordpress/blocks": "^12.31.0",
-    "@wordpress/i18n": "^4.54.0",
-    "@wordpress/scripts": "^27.5.0",
+    "@wordpress/block-editor": "^14.6.0",
+    "@wordpress/blocks": "^14.0.0",
+    "@wordpress/i18n": "^5.11.0",
+    "@wordpress/scripts": "^30.4.0",
     "ace-builds": "^1.32.0",
     "classnames": "^2.3.2",
     "file-loader": "^6.2.0",
-    "react-ace": "^10.1.0"
+    "react-ace": "^13.0.0"
   }
 }
