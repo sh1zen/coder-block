@@ -3,11 +3,10 @@ Contributors: sh1zen
 Tags: code, functions, php, snippets, block
 Donate link: https://www.paypal.com/donate?business=dev.sh1zen%40outlook.it&item_name=Thank+you+in+advanced+for+the+kind+donations.+You+will+sustain+me+developing+Coder+Block.&currency_code=EUR
 Requires at least: 5.6
-Tested up to: 6.7
+Tested up to: 6.8
 Requires PHP: 7.0
-Stable tag: 1.0.9
-License: GNU v3.0 License
-License URI: https://github.com/sh1zen/coder-block/blob/master/LICENSE
+Stable tag: 1.0.10
+License: GPLv2 or later
 
 The Coder Block plugin allows embedding php code inside of posts and pages within the new Block Editor.
 
@@ -79,6 +78,11 @@ Deactivate the plugin and reactivate it, if this doesn't work try to uninstall a
 work! Otherwise, go to the new added module "Setting" and try a reset.
 
 == Changelog ==
+
+= 1.0.10 =
+
+* Extended support to WordPress 6.8
+* updated dependencies
 
 = 1.0.9 =
 
